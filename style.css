@@ -9,4 +9,13 @@
 
 .new-font{
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:brown
 }
