@@ -9,7 +9,19 @@
 
 .new-font{
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color:chocolate
+}
+
+body{
+    border-style: dotted;
+    border-color: red;
+}
+
+div{
+    border-style:double;
+    border-color: rgb(56, 153, 26);
 }
 
 a:link{
@@ -24,10 +36,12 @@ a:hover{
     color:brown
 }
 
-#child{
+#parent{
     color:yellow;
+    background-color: black;
 }
 
-.parent #child{
-    color:green;
+#child{
+    color:red;
+    background-color: black;
 }
