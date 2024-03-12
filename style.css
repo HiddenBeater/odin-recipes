@@ -23,3 +23,11 @@ a:visited{
 a:hover{
     color:brown
 }
+
+#child{
+    color:yellow;
+}
+
+.parent #child{
+    color:green;
+}
