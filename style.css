@@ -12,8 +12,12 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+a:link{
+    color:rgb(67, 67, 194);
+}
+
 a:visited{
-    color:green;
+    color:rgb(67, 67, 194);
 }
 
 a:hover{
