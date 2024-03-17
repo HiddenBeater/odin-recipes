@@ -28,6 +28,11 @@ a:link{
     color:rgb(67, 67, 194);
 }
 
+.box,world{
+    font-size: 2em;
+    background-color: violet;
+}
+
 a:visited{
     color:rgb(67, 67, 194);
 }
